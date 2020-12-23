@@ -1,4 +1,4 @@
-# OpenCV, Tensorflow, Conda and Scipy for ARM based Mac (M1)
+# OpenCV, Tensorflow, Conda and Scipy (Python3) for ARM based Mac (M1)
 
 Installation guide for native tensor flow, opencv and scipy with all relevant tools.
 
@@ -48,6 +48,8 @@ cd build_opencv
 ```
 
 Copy all the .h files from the /Users/USER/miniforge3/envs/python38/include directory into the /Users/USER/miniforge3/envs/python38/include/python3.8 directory (copying the contents of both into another directory and setting that as the path would also work) so that all the .h files are in the same folder visible to the compiler. https://stackoverflow.com/questions/36814673/installing-opencv-in-anaconda3-python-h-no-such-file-or-directory
+
+Remeber to change the User Name accordingly.
 
 ```shell
 cmake -DCMAKE_BUILD_TYPE=Release \
