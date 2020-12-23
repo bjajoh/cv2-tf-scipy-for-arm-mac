@@ -5,7 +5,7 @@ Installation guide for native opencv, tensorflow and scipy with all relevant too
 # CMake
 Install CMake by building it from source:
 ```shell
-https://github.com/Kitware/CMake.git
+git clone https://github.com/Kitware/CMake.git
 ./bootstrap && make && sudo make install
 ```
 
