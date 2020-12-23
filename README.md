@@ -3,12 +3,12 @@ Installation guide for native tensor flow, opencv and scipy with all relevant to
 
 # Conda
 
-Install miniconda for ARM.
-[Miniforge3-MacOSX-arm64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)
+Install miniconda for ARM: [Miniforge3-MacOSX-arm64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)
 
-Create a Python 3.8 eviroment in order to be able to use tensorflow later:
+Create and activate a Python 3.8 eviroment in order to be able to use tensorflow later:
 ```shell
 conda create --name python38 python=3.8
+conda activate python38
 ```
 
 # Scipy
