@@ -1,6 +1,6 @@
 # OpenCV, Tensorflow, Conda and Scipy (Python3) for ARM based Mac (M1)
 
-Installation guide for native tensor flow, opencv and scipy with all relevant tools.
+Installation guide for native opencv, tensorflow and scipy with all relevant tools.
 
 # CMake
 Install CMake by building it from source:
