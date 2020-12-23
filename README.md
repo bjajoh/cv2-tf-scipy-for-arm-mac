@@ -1,4 +1,5 @@
-# cv2-tf-scipy-for-arm-mac
+# OpenCV, Tensorflow, Conda and Scipy for ARM based Mac (M1)
+
 Installation guide for native tensor flow, opencv and scipy with all relevant tools.
 
 # CMake
