@@ -1,6 +1,13 @@
 # cv2-tf-scipy-for-arm-mac
 Installation guide for native tensor flow, opencv and scipy with all relevant tools.
 
+# CMake
+Install CMake by building it from source:
+```shell
+https://github.com/Kitware/CMake.git
+./bootstrap && make && sudo make install
+```
+
 # Conda
 
 Install miniconda for ARM: [Miniforge3-MacOSX-arm64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)
