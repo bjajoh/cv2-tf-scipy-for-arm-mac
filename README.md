@@ -2,7 +2,7 @@
 Installation guide for native tensor flow, opencv and scipy with all relevant tools.
 
 
-```
+```shell
 cmake -DCMAKE_BUILD_TYPE=Release \
 -DPYTHON3_EXECUTABLE=`which python3` \
 -DPYTHON3_NUMPY_INCLUDE_DIR=/Users/bjarnejohannsen/miniforge3/envs/python38/lib/python3.8/site-packages/numpy/core \
